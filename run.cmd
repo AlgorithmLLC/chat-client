@@ -1,1 +1,1 @@
-start nw\nw.exe .
+start node-webkit\nw.exe .
