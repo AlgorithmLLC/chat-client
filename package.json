@@ -1,0 +1,24 @@
+{
+    "name": "chat.dynamicintel.net"
+  , "node-remote": "*.dynamicintel.net"
+
+  , "main": "index.html"
+
+  , "window": {
+      "position": "center"
+    , "width": 1280
+    , "height": 720
+    , "show": false
+    , "toolbar": false
+    , "icon": "message_empty.png"
+    , "title": "chat.dynamicintel.net"
+  }
+
+  , "settings": {
+      "debug": true
+    , "remote": [
+        "http://chat.dynamicintel.net/"
+      , "http://chat.dynamicintel.net/frontend_dev.php"
+    ]
+  }
+}
