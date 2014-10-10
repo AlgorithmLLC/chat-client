@@ -3,6 +3,7 @@
   , "node-remote": "*.dynamicintel.net"
 
   , "main": "index.html"
+  , "single-instance": true
 
   , "window": {
       "position": "center"
@@ -14,8 +15,10 @@
     , "title": "chat.dynamicintel.net"
   }
 
+  , "chromium-args": "--ignore-certificate-errors"
+
   , "settings": {
-      "debug": true
+      "debug": false
     , "remote": [
         "http://chat.dynamicintel.net/"
       , "http://chat.dynamicintel.net/frontend_dev.php"
