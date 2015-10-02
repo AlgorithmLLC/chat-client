@@ -2,9 +2,7 @@
 #define MyAppVersion "0.1"
 #define MyAppPublisher "Algorithm LLC"
 #define MyAppURL "http://birdex.org"
-#define LaunchProgram1 "Birdex secure messenger"
 #define DesktopIcon "Birdex"
-#define CreateDesktopIcon1 "Create desktop shortcut?"
 
 [Setup]
 AppId={{5BFB8E10-04A2-45C5-AED6-D3FAE6EE3D02}}
