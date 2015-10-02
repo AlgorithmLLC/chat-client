@@ -1,1 +1,1 @@
-start node-webkit\nw.exe .
+start nwjs\birdex.exe app

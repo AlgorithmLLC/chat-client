@@ -1,6 +1,6 @@
 {
-    "name": "chat.dynamicintel.net"
-  , "node-remote": "*.dynamicintel.net"
+    "name": "001.birdex.org"
+  , "node-remote": "*.birdex.org"
 
   , "main": "index.html"
   , "single-instance": true
@@ -12,7 +12,7 @@
     , "show": false
     , "toolbar": false
     , "icon": "message_empty.png"
-    , "title": "chat.dynamicintel.net"
+    , "title": "Birdex"
   }
 
   , "chromium-args": "--ignore-certificate-errors"
@@ -20,8 +20,7 @@
   , "settings": {
       "debug": false
     , "remote": [
-        "http://chat.dynamicintel.net/"
-      , "http://chat.dynamicintel.net/frontend_dev.php"
+        "http://001.birdex.org/"
     ]
   }
 }
