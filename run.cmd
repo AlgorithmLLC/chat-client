@@ -1,1 +1,1 @@
-start nwjs\birdex.exe app
+start nwjs-x86\birdex.exe app

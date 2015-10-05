@@ -9,6 +9,8 @@
       "position": "center"
     , "width": 1280
     , "height": 720
+    , "min_width": 1100
+    , "min_height": 700
     , "show": false
     , "toolbar": false
     , "icon": "birdex.png"
