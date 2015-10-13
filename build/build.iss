@@ -2,7 +2,7 @@
 #define MyAppVersion "0.1"
 #define MyAppPublisher "Algorithm LLC"
 #define MyAppURL "http://birdex.org"
-#define DesktopIcon "Birdex"
+#define Exe "Birdex.exe"
 
 [Setup]
 SourceDir=..\
@@ -28,20 +28,14 @@ Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 [Files]
 Source: "nwjs-x64\*"; DestDir: "{app}"; Check: Is64BitInstallMode; Flags: ignoreversion recursesubdirs
 Source: "nwjs-x86\*"; DestDir: "{app}"; Check: not Is64BitInstallMode; Flags: solidbreak ignoreversion recursesubdirs
-
 Source: "app\*"; DestDir: "{app}"; Flags: solidbreak ignoreversion recursesubdirs
-
-
-
-
-
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppName}.exe"; WorkingDir: "{app}";
-Name: "{userdesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppName}.exe"; WorkingDir: "{app}"; Tasks: desktopicon
+Name: "{group}\{#MyAppName}"; Filename: "{app}\{#Exe}"; WorkingDir: "{app}";
+Name: "{userdesktop}\{#MyAppName}"; Filename: "{app}\{#Exe}"; WorkingDir: "{app}"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\{#MyAppName}.exe"; WorkingDir: "{app}"; Description: "{cm:LaunchProgram,Birdex}"; Flags: postinstall shellexec
+Filename: "{app}\{#Exe}"; WorkingDir: "{app}"; Description: "{cm:LaunchProgram,Birdex}"; Flags: postinstall shellexec
